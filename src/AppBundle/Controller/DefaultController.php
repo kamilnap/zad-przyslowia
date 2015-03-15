@@ -683,4 +683,14 @@ public function AksamityAction()
 {
     return $this->render('default/Aksamity.html.twig');
 }
+/*
+     * CC
+     */
+/**
+ * @Route("/do-rzymu-przez-krym.html", name="do-rzymu-przez-krym")
+ */
+public function dorzymuprzezkrymAction()
+{
+    return $this->render('default/do-rzymu-przez-krym.html.twig');
+}
 }
